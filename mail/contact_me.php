@@ -23,4 +23,3 @@ $headers = "From: hr.filantroph@gmail.com\n"; // This is the email address the g
 $headers .= "Reply-To: $email_address";	
 mail($to,$email_subject,$email_body,$headers);
 return true;			
-?>
