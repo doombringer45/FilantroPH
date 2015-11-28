@@ -1,5 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Oxygen:300);
-
+.btn-blue{color:white; background-color:#3a5795 !important; border-color:#3a5795 !important;}
+.btn-blue:hover,.btn-blue:active{color:white!important}
 .store-img{width:225px; height:auto;}
 .justify{text-align: justify;}
 .left{text-align:left}
@@ -773,7 +774,8 @@ ul.social-buttons li a:active {
 .btn:active:focus {
     outline: 0;
 }
-.login-modal{height: 60% !important; width:50%; margin:50px auto;}
+.login-modal{height: 75% !important; width:50%; margin:50px auto; }
+.login-modal-content{padding:50px 0 !important}
 .portfolio-modal .modal-content {
     padding: 100px 0;
     min-height: 100%;

@@ -74,7 +74,7 @@
                     <li>
                         <a class="page-scroll" href="#contact">Contact</a>
                     </li>
-					<li class="active">
+					<li>
                         <a class="active" href="#loginModal" data-toggle="modal">Login</a>
                     </li>
                 </ul>
@@ -91,6 +91,7 @@
 					<li>
                         <a class="page-scroll" href="#">Campaigns</a>
                     </li>
+					
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -857,15 +858,14 @@
         </div>
     </div>
 	
-	<div class="portfolio-modal login-modal modal fade" id="loginModal" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
+	<div class="portfolio-modal modal login-modal fade" id="loginModal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content login-modal-content">
             <div class="close-modal" data-dismiss="modal">
 					<p>close</p>
             </div>
 			<div class="col-lg-12">	
 				<form class="form-horizontal">
-				<br>
-				<h2>FilantroPH Login</h2>
+				<h2>Login</h2>
 					<div class="form-group">
 					<label for="inputEmail3" class="col-sm-2 control-label">Email</label>
 					<div class="col-sm-10">
@@ -879,7 +879,7 @@
 					</div>
 				  </div>
 				  <div class="form-group">
-					<div class=" col-sm-10">
+					<div class=" col-sm-12">
 					  <div class="checkbox">
 						<label>
 						  <input type="checkbox"> Remember me
@@ -888,10 +888,16 @@
 					</div>
 				  </div>
 				  <div class="form-group">
-					<div class="col-sm-10">
-					  <button type="submit" class="btn btn-lg btn-primary ">Sign in</button>
+					<div class="col-sm-12">
+					  <button type="submit" class="btn btn-xl btn-primary ">Login</button>
+					  <h3>OR</h3> 
+					  <button class="btn btn-xl btn-blue">
+					  Sign in with facebook
+					  </button>
+					  
 					</div>
 				  </div>
+				  
 				</form>
 			</div>
         </div>
