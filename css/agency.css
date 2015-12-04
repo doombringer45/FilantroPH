@@ -10,6 +10,9 @@ strong{font-size:16px;}
 .text-md{font-size:16px;}
 .dark{color:#1B1B1B}
 .dark:hover{color:#ff1550; text-decoration:none}
+.blog-img{float:left; max-height: 200px;width: auto;padding-right:15px;padding-bottom:10px;}
+.post-preview{min-height:210px;}
+.no-text-transform{text-transform:none;}
 .navbar-fixed-top .navbar-collapse {
     max-height: 356px !important;
 }
@@ -963,4 +966,8 @@ body {
   .intro-header .post-heading .subheading {
     font-size: 30px;
   }
+}
+
+@media screen and (max-width: 536px){
+	.blog-img{float:none;margin:0 auto;}
 }
