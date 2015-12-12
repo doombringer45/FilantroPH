@@ -16,7 +16,9 @@ strong{font-size:16px;}
 .navbar-fixed-top .navbar-collapse {
     max-height: 356px !important;
 }
+.download-block{position: absolute; opacity:0.8; background-color: white;top:88px;right:1px;}
 .nav-pages{background-color:#222 !important}
+#download-icon{widht:100px; height:100px;}
 body {
     overflow-x: hidden;
     font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
